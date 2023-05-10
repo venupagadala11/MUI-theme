@@ -1,0 +1,61 @@
+.app-features
+{
+    display: flex;
+    margin:50px 0px;
+    background-color: var(--backgroundColor);
+    color: var(--color); 
+}
+.feature-iterate
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding:30px;
+}
+.align-features
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app-title
+{
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    padding-left: 47px;
+}
+.app-desc
+{
+    max-width:400px;
+    width:100%;
+    font-size:14px;
+    font-weight: 400;
+    padding: 10px 0px 40px 47px;
+    color:var(--gray);
+}
+.mobile-img
+{
+    width: 362px;
+    padding-right: 21px;
+}
+
+@media  (max-width: 780px) {
+    .app-features
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    .mobile-2
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .app-title
+    {
+        font-size: 30px;
+    }
+    .app-desc
+    {
+        font-size:10px;
+    }
+  }

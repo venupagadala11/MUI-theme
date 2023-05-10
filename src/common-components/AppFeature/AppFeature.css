@@ -1,0 +1,37 @@
+.feature
+{
+ padding: 25px;
+}
+.logo
+{
+    width:80px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+.feature-title
+{
+    font-size: 20px;
+    padding:10px 0px;
+}
+.feature-desc
+{
+    font-size: 14px;
+    font-weight: 400;
+    color:#4d4444;
+    max-width: 201px;
+    line-height: 20px;
+    width:100%;
+
+}
+@media screen and (max-width:768px)
+{
+    .feature-title
+    {
+        font-size: 14px;
+    }
+    .feature-desc
+    {
+        font-size: 10px;
+
+    }
+}

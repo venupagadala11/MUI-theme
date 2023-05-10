@@ -1,0 +1,94 @@
+.container.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    background-color: #1565c0;
+    border-radius: 25px;
+    color:white;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+.empty.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    border-radius: 25px;
+    background-color: var(--boxColor);
+    padding: 10px 15px;
+    color:#1565c0;
+    border: 1px solid #0f2deea1;
+    text-transform: capitalize;
+}
+.login.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    text-transform: capitalize;
+    border-radius: 25px 0px 0px 25px;
+    padding: 5px 24px;
+    text-transform: capitalize !important;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #0f2deea1 ;
+}
+.login.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover
+{
+    background-color:#303f9f ;
+    color: white;
+}
+.sign-up.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    border-radius: 0px 25px 25px 0px;
+    margin-left: 5px;
+    padding: 5px 20px;
+    text-transform: capitalize !important;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #0f2deea1 ;
+}
+.sign-up.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover
+{
+    background-color:#303f9f ;
+    color:white;
+    
+}
+.icon.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: 700;
+    color:white;
+    background-color: #3f51b5;
+    text-transform: capitalize;
+}
+.icon.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover
+{
+    color:white;
+    background-color: #303f9f;
+}
+
+.service.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    margin-top: 20px ;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #3f51b5;
+    padding: 7px 25px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+}
+.footer.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    font-size: 14px;
+    color:#fff;
+    background-color: #011C3A;
+    text-transform: capitalize;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+
+@media screen and (max-width:768px)
+{
+    .icon.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+    {
+        padding: 10px;
+        font-size: 0px;
+    }
+}
+
+

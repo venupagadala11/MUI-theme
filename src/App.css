@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root
+{
+  --backgroundColor:black;
+  --color:white;
+  --boxColor:rgb(247,244,244, 0.2);
+  --gray:#4d4444;
+  --button-bg:gray;
+  --shadow:rgba(247, 244, 244, 0.2);
+  --hoverShadow:rgb(0 0 0 / 20%);
+  --footerBG:#011C3A;
+}
+
+[data-theme='light']
+{
+  --backgroundColor:white;
+  --color:black;
+  --boxColor:rgb(241,242,249);
+  --gray:#6d6969;
+  --button-bg:rgb(241,242,249);
+  --shadow:rgb(0 0 0 / 20%);
+  --hoverShadow:rgb(0 0 0 / 20%);
+  --footerBG:#011C3A;
+}
+
+
+.MuiButton-contained,.css-xd17xl-MuiButtonBase-root-MuiButton-root {
+  text-transform: capitalize !important;
+}
+
+.app
+{
+  background-color: var(--backgroundColor);
+  color: var(--color);
+}
+
+
+

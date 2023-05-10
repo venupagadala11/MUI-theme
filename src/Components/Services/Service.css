@@ -1,0 +1,53 @@
+.service-container.css-1oqqzyl-MuiContainer-root
+{
+    padding:75px 75px;
+    background-color: var(--backgroundColor);
+    color: var(--color);
+    max-width: 100vw;
+}
+.service-title
+{
+    font-size: 44px;
+    font-weight: 500;
+    margin-bottom: 14px;
+    color:var(--color);
+    display: flex;
+    justify-content: center;
+}
+.service-desc
+{
+    font-size: 14px;
+    font-weight: 400;
+    color:var(--gray);
+    line-height: 23px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    max-width: 380px;
+    width:100%;
+
+}
+.service-cards
+{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+.align-text
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px)
+{
+    .service-title
+    {
+        font-size: 30px;
+    }
+    .service-desc
+    {
+        font-size: 10px;
+    }
+}

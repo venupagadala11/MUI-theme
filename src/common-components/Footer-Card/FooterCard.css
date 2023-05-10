@@ -1,0 +1,26 @@
+.footer-card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.card-title
+{
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.footer-button.css-1e6y48t-MuiButtonBase-root-MuiButton-root
+{
+    font-size: 14px;
+    color:#fff;
+    background-color: #011C3A;
+    text-transform: capitalize;
+    justify-content: flex-start;
+    font-weight: 700;
+}
+.footer-button.css-1e6y48t-MuiButtonBase-root-MuiButton-root:hover
+{
+    background-color: #00162e;
+    
+}

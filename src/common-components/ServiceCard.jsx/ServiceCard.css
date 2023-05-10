@@ -1,0 +1,86 @@
+.card-container
+{
+    border-radius: 5px ;
+    padding: 30px;
+    max-width:235px;
+    width:100%;
+    justify-content: center;
+    border:1px solid white;
+    box-shadow: 0px 3px 1px -2px var(--shadow), 0px 2px 2px 0px rgb(0 0 0 / 20%), 0px 1px 5px 0px rgb(0 0 0 / 20%);
+}
+.price-head
+{
+    display: flex;
+}
+.price-img
+{
+    width: 65px;
+    padding-right: 5px;
+    cursor: pointer;
+    filter:grayscale(0%)
+}
+.price-img-filter
+{
+    width: 65px;
+    padding-right: 5px;
+    cursor: pointer;
+    filter:grayscale(100%)
+}
+.price-title
+{
+    font-size: 24px;
+    color:#3f51b5;
+    font-weight: bold;
+    line-height: 1.1;
+    padding: 0px 3px;
+}
+.price 
+{
+    font-size: 14px;
+    color:var(--color);
+    display: flex;
+    align-items: flex-end;
+}
+
+.pricing
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bye-now.css-sghohy-MuiButtonBase-root-MuiButton-root
+{
+    margin-top: 20px ;
+    border-radius: 25px;
+    font-size: 14px;
+    background-color: #3f51b5;
+    padding: 7px 25px;
+}
+.card-container:hover
+{
+    border: 1px solid #3f51b5;
+    box-shadow: 0px 7px 8px -4px var(--hoverShadow), 0px 12px 17px 2px var(--hoverShadow), 0px 5px 22px 4px var(--hoverShadow);
+}
+.card-divider.css-0
+{
+    margin:30px 0px;
+    border-top:1px solid #3f51b5;
+    height:0px;
+}
+
+@media screen and (max-width:760px)
+{
+    .card-container
+    {
+        max-width:180px;
+        width:100%;
+    }
+    .price-title
+    {
+        font-size: 18px;
+    }
+    .product-content
+    {
+        font-size: 10px;
+    }
+}
